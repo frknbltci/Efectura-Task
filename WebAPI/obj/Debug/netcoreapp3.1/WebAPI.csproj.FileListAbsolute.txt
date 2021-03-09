@@ -224,9 +224,9 @@ C:\Users\fbalt\Desktop\Efectura-Task\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcAp
 C:\Users\fbalt\Desktop\Efectura-Task\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\fbalt\Desktop\Efectura-Task\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.Manifest.cache
 C:\Users\fbalt\Desktop\Efectura-Task\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.xml
-C:\Users\fbalt\Desktop\Efectura-Task\WebAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\WebAPI.styles.css
 C:\Users\fbalt\Desktop\Efectura-Task\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.RazorTargetAssemblyInfo.cache
 C:\Users\fbalt\Desktop\Efectura-Task\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CopyComplete
 C:\Users\fbalt\Desktop\Efectura-Task\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
 C:\Users\fbalt\Desktop\Efectura-Task\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
 C:\Users\fbalt\Desktop\Efectura-Task\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+C:\Users\fbalt\Desktop\Efectura-Task\WebAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Business.Abstract;
 using Core.Entities.Concrete;
+using Core.Extensions;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -21,39 +22,48 @@ namespace WebAPI.Controllers
             _userService = userService;
         }
 
-        // GET: api/<UserController>
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
-
-        // GET api/<UserController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
-
+ 
         // POST api/<UserController>
         [HttpPost]
-        public void Post([FromBody] User user)
+        public IActionResult Post([FromBody] User user)
         {
-
-            _userService.AddUser(user);
-
+            TcknoSet run = new TcknoSet();
+            var singleId=run.SetSingId();
+            user.SingleID = singleId;
+            user.Birthday = user.Birthday;
+            user.CreationDate = DateTime.Now;
+            user.LastModified = DateTime.Now;
+            var result = _userService.AddUser(user);
+            if (result.Success)
+            {
+                return Ok(result.Message);
+            }
+            return BadRequest(result.Message);
         }
 
         // PUT api/<UserController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPut]
+        public IActionResult Put([FromBody] User user)
         {
+            var result= _userService.UpdateUser(user);
+            if (result.Success)
+            {
+                return Ok(result.Message);
+            }
+            return BadRequest(result.Message);
         }
 
         // DELETE api/<UserController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpDelete()]
+        public IActionResult Delete(string SingleId)
         {
+            var result=_userService.DeleteUser(SingleId);
+            if (result.Success)
+            {
+                return Ok(result.Message);
+            }
+            return BadRequest(result.Message);
+
         }
 
 
@@ -61,6 +71,7 @@ namespace WebAPI.Controllers
         [HttpGet("getbysingleid")]
         public IActionResult GetById(string singleId)
         {
+
             var result = _userService.GetBySingleId(singleId);
             if (result.Success)
             {

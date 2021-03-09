@@ -2,11 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Core.DependencyResolvers;
 using Core.Extensions;
-using Core.Utilities.IoC;
-using Core.Utilities.Security.Encryption;
-using Core.Utilities.Security.JWT;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -35,12 +31,7 @@ namespace WebAPI
         {
             services.AddControllers();
 
-           
-
-            services.AddDependencyResolvers(new ICoreModule[] { 
-            new CoreModule()
-            });
-
+  
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v2", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Efectura Task Api", Version = "v2" });
