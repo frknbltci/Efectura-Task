@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\Business\\Business.csproj": {
+    "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\fbalt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\Business\\obj\\",
+        "outputPath": "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fbalt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,12 +26,13 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\Entities\\Entities.csproj"
+              "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\Entities\\Entities.csproj"
               }
             }
           }
@@ -44,6 +45,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "Autofac": {
               "target": "Package",
@@ -94,18 +96,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\Core\\Core.csproj": {
+    "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\fbalt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\Core\\obj\\",
+        "outputPath": "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fbalt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -120,6 +122,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -131,6 +134,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "Autofac.Extras.DynamicProxy": {
               "target": "Package",
@@ -177,18 +181,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\fbalt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fbalt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -203,12 +207,13 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\Core\\Core.csproj"
+              "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\Core\\Core.csproj"
               },
-              "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\Entities\\Entities.csproj"
+              "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\Entities\\Entities.csproj"
               }
             }
           }
@@ -221,6 +226,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "JetBrains.Annotations": {
               "target": "Package",
@@ -243,18 +249,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\Entities\\Entities.csproj": {
+    "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\fbalt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fbalt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -269,9 +275,10 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\Core\\Core.csproj"
+              "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\Core\\Core.csproj"
               }
             }
           }
@@ -284,6 +291,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "JetBrains.Annotations": {
               "target": "Package",
@@ -306,18 +314,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\fbalt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fbalt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -332,9 +340,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\Business\\Business.csproj"
+              "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\Business\\Business.csproj"
               }
             }
           }
@@ -347,6 +356,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
@@ -387,7 +397,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

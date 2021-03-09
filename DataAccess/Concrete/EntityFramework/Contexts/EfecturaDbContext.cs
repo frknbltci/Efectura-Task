@@ -10,7 +10,7 @@ namespace DataAccess.Concrete.EntityFramework.Contexts
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(connectionString: @"Server=(localdb)\Efectura;initial catalog=Efectura;integrated security=true");
+            optionsBuilder.UseSqlServer(connectionString: @"Server=.;database=Efectura;integrated security=true");
         }
           
        

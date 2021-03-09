@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I6tpAIYbwS4P8Fkrs4fNbY1rhOvbc54OqbfLwh03CqCogWDmgSy3wUv3SxL2aqPuaiITm/3nrqdJT4KTvJD69Q==",
+  "dgSpecHash": "akFSasfxzDDgpfERy+1GOeujdw0VsnEkX++kh37e/yixu9OTWgH9w9dWvX2E9JJm5zc7zQj7zX6zTLUCWyXleQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fbalt\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
     "C:\\Users\\fbalt\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",

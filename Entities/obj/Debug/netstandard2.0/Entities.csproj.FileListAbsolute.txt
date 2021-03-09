@@ -22,3 +22,15 @@ C:\Users\fbalt\Desktop\EmptyCoreStructure\Entities\obj\Debug\netstandard2.0\Enti
 C:\Users\fbalt\Desktop\EmptyCoreStructure\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete
 C:\Users\fbalt\Desktop\EmptyCoreStructure\Entities\obj\Debug\netstandard2.0\Entities.dll
 C:\Users\fbalt\Desktop\EmptyCoreStructure\Entities\obj\Debug\netstandard2.0\Entities.pdb
+C:\Users\fbalt\Desktop\Efectura-Task\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+C:\Users\fbalt\Desktop\Efectura-Task\Entities\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\fbalt\Desktop\Efectura-Task\Entities\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\fbalt\Desktop\Efectura-Task\Entities\bin\Debug\netstandard2.0\Core.dll
+C:\Users\fbalt\Desktop\Efectura-Task\Entities\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\fbalt\Desktop\Efectura-Task\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+C:\Users\fbalt\Desktop\Efectura-Task\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+C:\Users\fbalt\Desktop\Efectura-Task\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+C:\Users\fbalt\Desktop\Efectura-Task\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\fbalt\Desktop\Efectura-Task\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete
+C:\Users\fbalt\Desktop\Efectura-Task\Entities\obj\Debug\netstandard2.0\Entities.dll
+C:\Users\fbalt\Desktop\Efectura-Task\Entities\obj\Debug\netstandard2.0\Entities.pdb

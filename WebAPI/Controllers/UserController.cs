@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Business.Abstract;
+using Core.Entities.Concrete;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -12,6 +14,13 @@ namespace WebAPI.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
+        private IUserService _userService;
+
+        public UserController(IUserService userService)
+        {
+            _userService = userService;
+        }
+
         // GET: api/<UserController>
         [HttpGet]
         public IEnumerable<string> Get()
@@ -28,8 +37,11 @@ namespace WebAPI.Controllers
 
         // POST api/<UserController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] User user)
         {
+
+            _userService.AddUser(user);
+
         }
 
         // PUT api/<UserController>/5
@@ -42,6 +54,19 @@ namespace WebAPI.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+        }
+
+
+
+        [HttpGet("getbysingleid")]
+        public IActionResult GetById(string singleId)
+        {
+            var result = _userService.GetBySingleId(singleId);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result.Message);
         }
     }
 }

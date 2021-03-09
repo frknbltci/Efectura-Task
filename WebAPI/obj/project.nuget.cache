@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FDSJf2Y82rrb/j4LRXIjYEfy90llI6iWilKrkX3+oXZdHZmt+pTKNkHztvX60l0lptGblLiZuVupZo3aYVixMA==",
+  "dgSpecHash": "ROFyEAyLcO8TFgcuKM40okibKLQswFr0wv+FfUtQPbYwlbng04YVGxd6782SjWZ+d3c0z1BpuZr4eB0eXUGS4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fbalt\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\fbalt\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f2WfVkaEfshX8GcpYaLbSwIVSWoWpUBclDrscXdk41s+GWz2zPz12dOQ7CbpcQOrHsXAY8Cmv0spBCeZMPBw+Q==",
+  "dgSpecHash": "JrUj6J0b+A2ZKCAvYvdTpxaZ2FaNcqSQlNu6QC/UlsiTIHBEB5+s57ip/vOcjpzf0j7d64JG5+cuzo3YFYNQlg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fbalt\\Desktop\\EmptyCoreStructure\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\fbalt\\Desktop\\Efectura-Task\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fbalt\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\fbalt\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
